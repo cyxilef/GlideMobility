@@ -522,6 +522,37 @@ section {
     .stats {
         grid-template-columns: 1fr;
     }
+
+    .cycle-timeline {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .timeline-item.featured-timeline {
+        transform: scale(1);
+    }
+
+    .customer-journey-intro {
+        padding: 1.5rem;
+        margin: 2rem 0 1.5rem;
+    }
+
+    .customer-journey-intro h3 {
+        font-size: 1.5rem;
+    }
+
+    .customer-journey-intro p {
+        font-size: 1rem;
+    }
+
+    .cycle-steps {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .cycle-step {
+        padding: 1.5rem;
+    }
 }
 
 /* Smooth Scrolling */
@@ -1412,6 +1443,18 @@ select:focus {
     border: 2px solid var(--primary-color);
 }
 
+.timeline-item.featured-timeline {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+    color: white;
+    border: 3px solid var(--primary-color);
+    transform: scale(1.05);
+}
+
+.timeline-item.featured-timeline .timeline-duration,
+.timeline-item.featured-timeline .timeline-label {
+    color: white;
+}
+
 .timeline-duration {
     font-size: 2rem;
     font-weight: 800;
@@ -1423,6 +1466,19 @@ select:focus {
     font-size: 1rem;
     color: var(--text-light);
     line-height: 1.5;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.timeline-desc {
+    font-size: 0.9rem;
+    color: var(--text-light);
+    font-style: italic;
+    margin-top: 0.5rem;
+}
+
+.timeline-item.featured-timeline .timeline-desc {
+    color: rgba(255, 255, 255, 0.9);
 }
 
 .timeline-note {
@@ -1434,6 +1490,30 @@ select:focus {
     line-height: 1.8;
     color: var(--text-dark);
     border-left: 4px solid var(--primary-color);
+}
+
+.customer-journey-intro {
+    text-align: center;
+    margin: 3rem 0 2rem;
+    padding: 2rem;
+    background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+    border-radius: 12px;
+    border: 2px solid var(--primary-color);
+}
+
+.customer-journey-intro h3 {
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.customer-journey-intro p {
+    font-size: 1.15rem;
+    color: var(--text-dark);
+    line-height: 1.7;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .cycle-steps {
