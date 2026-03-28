@@ -1,3 +1,6 @@
+Fall 2025 Entreprenuership and Strategy New Venture Startup Project
+
+
 # Glide Mobility Website
 
 A comprehensive, accessible website for Glide Mobility - a company that sells self-driving wheelchairs with standing capability, designed primarily for disabled individuals in rural areas of the South and Midwest.
