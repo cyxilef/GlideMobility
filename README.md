@@ -1,4 +1,4 @@
-Fall 2025 Entreprenuership and Strategy New Venture Startup Project
+Fall 2025 Entreprenuership and Strategy New Venture Startup Final Project
 
 
 # Glide Mobility Website
